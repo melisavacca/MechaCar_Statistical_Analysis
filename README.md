@@ -7,12 +7,14 @@
 
 - Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?
 
-According to the above results, vehicle length and ground clearance are unlikely to provide random amounts of variance in the dataset.  This must mean that vehicle lenght and ground clearance have an effect on MPG. 
+  According to the above results, vehicle length and ground clearance are unlikely to provide random amounts of variance in the dataset.  This must mean that vehicle lenght and  ground clearance have an effect on MPG. 
+
 
 - Is the slope of the linear model considered to be zero?  Why or why not? 
 
-The slope of the linear model is not considered to be zero.  There is an apparent relationship between vehicle length/ground clearance and MPG, which means the slope would not be zero. 
+  The slope of the linear model is not considered to be zero.  There is an apparent relationship between vehicle length/ground clearance and MPG, which means the slope would not be zero. 
+
 
 - Does the linear model predict mpg of MechaCar prototypes effectively?  Why or why not?
 
-Yes, because the R-squared value is 0.7149 representing a successful rate.  
+  Yes, because the R-squared value is 0.7149 representing a successful rate.  
