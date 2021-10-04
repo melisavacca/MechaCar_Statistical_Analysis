@@ -70,7 +70,16 @@ Lastly, for Lot 3, the p-value = 0.04, so this time we are rejecting the null hy
 ![image](https://user-images.githubusercontent.com/64279232/135906451-b83a9426-dc8d-4561-994d-209b90bf5472.png)
 
 
+## Study Design: MechaCar vs Competition
 
+MechaCar is interested in how the performance of their vehicles compares to vehicles from other manufacturers.  Employees at MechaCar want to use the best metrics that will target interested consumers, so we are focusing on cost, fuel efficiency, and safety rating.  
+
+Null Hypothesis: There is no significant difference between MechaCar and other manufacturers. 
+Alternative Hypothesis:  There is significant difference between MechaCar and other manufacturers. 
+
+We will use a significant value of 0.05, so any p-value lower than 0.05 will cause us to reject the null hypothesis. 
+
+In order to run this statistical test, we will collect and organize data on cost, fuel efficiency, and safety ratings for MechaCar vehicles and similar cars from their competitors.  Just like in the above deliverables, we will craete dataframes, summaries of the data, and run t-tests.  If the p-values are greater than or equal to 0.05, we will fail to reject the null hypothesis, and if they are less, we will reject the null hypothesis.  We will repeat this process for all three metrics.  
 
 
 
