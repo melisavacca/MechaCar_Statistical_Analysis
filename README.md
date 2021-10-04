@@ -22,6 +22,7 @@ The dataset contains mpg test results for 50 prototype MechaCars.  The MechaCars
   Yes, because the R-squared value is 0.7149 representing a successful rate.  
 
 
+
 ## Summary Statistics on Suspension Coils
 
 
