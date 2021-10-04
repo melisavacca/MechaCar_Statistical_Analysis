@@ -32,10 +32,45 @@ Total Summary Dataframe
 
 ![image](https://user-images.githubusercontent.com/64279232/135893607-e4dc054c-59d5-4203-bf82-d6fb89738719.png)
 
+
 Lot Summary Dataframe
 
 ![image](https://user-images.githubusercontent.com/64279232/135893707-b9ded842-786b-4b88-a7a3-22c336f9619d.png)
 
 The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch.  As shown in the tables above, we can see that overall the specificaitons are met since the variance is 62.29.  Individually, Lot 1 and Lot 2 also meet the design specificaitons with the variances being 0.98 and 7.47, respectively.  However, Lot 3 does not meet the requirements since the variance is over 100 (170.29).  
+
+
+## T-Tests on Suspension Coils
+
+I performed t-tests using R to determine if all manufacturing lots and each lot individually are statistically different from the population mean of 1500 pounds per square inch. 
+
+Null Hypothesis: There is no significant difference between the manufacturing lot and the mean population of 1500 for PSI.
+
+Alternate Hypothesis: There is significant difference between the manufacturing lot and the mean population of 1500 for PSI.
+
+We used a significance value of 0.05, so any p-values less than 0.05 would cause us to reject the null hypothesis.
+
+For the manufacturing lots as a whole, the p-value was 0.06, so we fail to reject the null hypothesis.  See below:
+
+![image](https://user-images.githubusercontent.com/64279232/135905767-681c87a6-d0bc-42a5-b6e5-ab9bac398fab.png)
+
+
+For Lot 1, the p-value=1, so we fail to reject the null hypothesis. See below:
+
+![image](https://user-images.githubusercontent.com/64279232/135906134-d0dfa232-baf7-464d-86e0-9faba61cb66f.png)
+
+
+For Lot 2, the p-value = 0.06, so we fail to reject the null hypothesis again.  See below:
+
+![image](https://user-images.githubusercontent.com/64279232/135906299-fcc5a245-4901-4e1d-bf55-3d8628299deb.png)
+
+
+Lastly, for Lot 2, the p-value = 0.04, so this time we are rejecting the null hypothesis. 
+
+![image](https://user-images.githubusercontent.com/64279232/135906451-b83a9426-dc8d-4561-994d-209b90bf5472.png)
+
+
+
+
 
 
