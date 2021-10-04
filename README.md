@@ -65,7 +65,7 @@ For Lot 2, the p-value = 0.06, so we fail to reject the null hypothesis again.  
 ![image](https://user-images.githubusercontent.com/64279232/135906299-fcc5a245-4901-4e1d-bf55-3d8628299deb.png)
 
 
-Lastly, for Lot 2, the p-value = 0.04, so this time we are rejecting the null hypothesis. 
+Lastly, for Lot 3, the p-value = 0.04, so this time we are rejecting the null hypothesis. 
 
 ![image](https://user-images.githubusercontent.com/64279232/135906451-b83a9426-dc8d-4561-994d-209b90bf5472.png)
 
